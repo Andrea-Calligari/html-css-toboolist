@@ -17,6 +17,50 @@
     font-size: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-.box{
-    margin: 0, auto;
+.container-wrapper{
+ background-color: rgb(224, 224, 224);
+ height: 1000px;
+ padding-top: 40px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.bar{
+    width: 900px;
+    height: auto;
+    padding: 10px 40px;
+    border-bottom: 2px solid rgb(227, 223, 223);
+}
+
+.btn {
+    padding: 10px 40px;
+    border: 2px solid;
+    border-radius: 10px;
+   
+}
+
+.btn-primary {
+    border-color: white;
+    background: blue;
+    color: white;
+}
+
+.btn-secondary {
+    border-color: blue;
+    background: white;
+    color: blue;
+}
+
+.title-list{
+    margin: 20px 50px ;
+  
+}
+ul{
+    margin: 20px 50px ;
+
 }
